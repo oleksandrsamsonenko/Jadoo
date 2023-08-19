@@ -1,0 +1,172 @@
+.subscription {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 480px;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 62px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 175px;
+    max-width: 1440px;
+  }
+}
+
+.sub__wrapper {
+  border-radius: 20px;
+  border-top-left-radius: 55px;
+  padding: 25px 10px;
+  @media screen and (min-width: 768px) {
+    padding: 35px 25px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1142px;
+    padding: 79px 142px 86px 132px;
+    border-top-left-radius: 129px;
+  }
+  background-color: $light-violet;
+  position: relative;
+  background-image: url('/src/images/CirclesLeft.svg'),
+    url('/src/images/CirclesRight.svg');
+  background-position: left 0 bottom 0, top 0 right 0;
+  background-repeat: no-repeat;
+}
+
+.sub__title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: $text-color;
+  letter-spacing: 0em;
+  @media screen and (min-width: 1024px) {
+    font-size: 33px;
+    line-height: 54px;
+  }
+}
+
+.sub__form {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  @media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    gap: 0;
+    margin-top: 36px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-top: 66px;
+  }
+}
+.sub__inputwrapper {
+  position: relative;
+}
+
+.sub__envelope {
+  position: absolute;
+  fill: none;
+  stroke: $text-color;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  @media screen and (min-width: 1024px) {
+    left: 31px;
+  }
+}
+
+.sub__email {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 10px 25px 10px 50px;
+
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  @media screen and (min-width: 768px) {
+    padding: 12px 47px 15px;
+  }
+  @media screen and (min-width: 1024px) {
+    background-position-x: 31px;
+    width: 421px;
+    padding: 25px 31px 25px 66px;
+  }
+}
+
+.sub__button {
+  background: linear-gradient(rgba(255, 148, 109, 1), rgba(255, 125, 104, 1));
+  border: none;
+  color: $white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 12px 47px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms;
+  @media screen and (min-width: 1440px) {
+    padding: 22px 47px 20px;
+  }
+  &:hover,
+  &:focus {
+    scale: 1.05;
+  }
+}
+
+.sub__icon {
+  position: absolute;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: -20px;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(
+    43deg,
+    rgba(94, 59, 225, 1),
+    rgba(116, 125, 239, 1)
+  );
+  @media screen and (min-width: 768px) {
+    top: -13px;
+    right: -5px;
+    width: 55px;
+    height: 55px;
+  }
+  @media screen and (min-width: 1024px) {
+    top: -13px;
+    right: -29px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.sub__paperplane {
+  rotate: 330deg;
+  stroke: transparent;
+  scale: 0.75;
+  @media screen and (min-width: 1024px) {
+    scale: 1;
+  }
+}

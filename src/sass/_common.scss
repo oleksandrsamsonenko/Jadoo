@@ -1,1 +1,14 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-size: 50%, 150px, 40%;
+  background-image: url('/src/images/Decore.png'),
+    url('/src/images/DecoreBottom.png'), url('/src/images/DecoreShadow.png');
+  background-repeat: no-repeat;
+  background-position: top 0 right 0, bottom 10px right 10px, top 0 left 0;
+
+  @media screen and (min-width: 1440px) {
+    background-size: auto, auto, auto;
+    background-position: top 0 right 0, bottom 105px right 42px, top 0 left 0;
+  }
+}
