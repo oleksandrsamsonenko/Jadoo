@@ -33,12 +33,16 @@
         <a href="#" class="header__signup">Sign up</a>
       </li>
     </ul>
-    <p class="header__language">
-      EN
-      <svg class="header__arrow" width="10" height="7">
+    <div class="header__dropdown">
+      <svg class="header__arrow" width="11" height="7">
         <use href="images/icons/symbol-defs.svg#icon-arrow"></use>
       </svg>
-    </p>
+      <input class="header__language" type="text" readonly />
+      <div class="options">
+        <div class="EN">EN</div>
+        <div class="UA">UA</div>
+      </div>
+    </div>
   </div>
   <button class="header__burger js-open-menu">
     <svg class="header__burgericon" width="32" height="32">
