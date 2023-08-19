@@ -2,10 +2,10 @@
   "name": "jadoo",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/oleksandrsamsonenko/jadoo",
+  "homepage": "https://github.com/oleksandrsamsonenko/Jadoo",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /jadoo/"
+    "build": "parcel build src/*.html --public-url /Jadoo/"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
