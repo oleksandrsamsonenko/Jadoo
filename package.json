@@ -2,7 +2,7 @@
   "name": "jadoo",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/oleksandrsamsonenko/Jadoo",
+  "homepage": "https://oleksandrsamsonenko.github.io/Jadoo",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Jadoo/"
